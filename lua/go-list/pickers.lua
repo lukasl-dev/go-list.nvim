@@ -64,7 +64,8 @@ local function show_test_picker(title, tests_per_file, open)
           return
         end
         ts_actions.close(prompt_bufnr)
-        open(selection.path)
+        print(selection.value)
+        open(selection.path, selection.value)
       end)
       return true
     end,
