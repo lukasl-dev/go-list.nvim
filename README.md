@@ -1,1 +1,1 @@
-# go-tests.nvim
+# go-list.nvim
